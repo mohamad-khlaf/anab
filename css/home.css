@@ -209,12 +209,12 @@ a {
 }
 @media (max-width: 576px) {
     .story-section .story-section__floting-img:nth-child(2) {
-        top: 515px;
+        top: 550px;
     }
 }
 /* Start product-section */
 .product-section {
-    margin-top: 40px;
+    margin-top: 85px;
 }
 .product-section img {
     width: 200px;
