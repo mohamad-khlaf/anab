@@ -54,7 +54,6 @@ a {
     border-radius: 25px;
     background: red;
     color: white;
-    border: 1.5px solid black;
     display: block;
     text-align: center;
 }
@@ -212,6 +211,9 @@ a {
     margin-bottom: 0;
     flex: 1;
 }
+.section-home .cta .deltet-price {
+    text-decoration: line-through;
+}
 
 /* Start Section story-section */
 .story-section {
@@ -233,6 +235,10 @@ a {
     font-size: 22px;
     position: relative;
     z-index: 2;
+    
+    margin-top: 130px;
+    margin-bottom: 130px;
+
 }
 .story-section .story-section__floting-img {
     width: 120px;
@@ -258,12 +264,8 @@ a {
 .story-section .story-section__floting-img:nth-child(2) {
     left: auto;
     right: 15px;
-    top: 450px;
-}
-@media (max-width: 576px) {
-    .story-section .story-section__floting-img:nth-child(2) {
-        top: 550px;
-    }
+    top: auto;
+    bottom: 0;
 }
 /* Start product-section */
 .product-section {
@@ -310,7 +312,7 @@ a {
     border-radius: 19px 12px 12px 11px;
     width: fit-content;
     margin: auto;
-    background: #5e272740;
+    max-width: 100px
 }
 .featurs-section .featurs-section__featur-text {
     text-align: center;
